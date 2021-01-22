@@ -26,7 +26,7 @@ public class ValidParentheses {
                     if(openBracketsInOrder.empty())
                         return false;
 
-                    //find the last inserted bracket whose closing brakcet has not been found yet
+                    //find the last inserted bracket whose closing bracket has not been found yet
                     Character lastBracketType = openBracketsInOrder.pop();
 
                     //if it doesn't match with the closing bracket we found right now
